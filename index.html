@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коллекция «Навязали 2024»</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/abc_gravity_cyrillic.woff2" as="font">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-body">
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header-inner">
+                <a class="site-logo" href="/">
+                    <img src="img/logo.svg" width="140" height="30" alt="Логотип Навязали">
+                </a>
+
+                <ul class="main-menu">
+                    <li class="main-menu-item">
+                        <a class="main-menu-link active" href="/collections">Коллекции</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a class="main-menu-link" href="/sweaters">Свитеры</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a class="main-menu-link" href="/cardigans">Кардиганы</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a class="main-menu-link" href="/hats">Шапки</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a class="main-menu-link" href="/scarfs">Шарфы</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a class="main-menu-link" href="/socks">Носки</a>
+                    </li>
+                </ul>
+
+                <ul class="user-menu">
+                    <li class="user-menu-item">
+                        <a class="user-menu-link" href="/search">
+                            <span class="user-menu-icon">
+                                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9.35156C0 4.19531 4.19531 0 9.35156 0C14.5078 0 18.7031 4.19531 18.7031 9.35156C18.7031 11.4844 17.9883 13.4414 16.7812 15.0117L22.5117 20.7773C22.7578 21.0234 22.8984 21.3633 22.8984 21.7383C22.8984 22.5234 22.3477 23.1211 21.5508 23.1211C21.1758 23.1211 20.8242 22.9922 20.5547 22.7227L14.7891 16.9453C13.2539 18.0469 11.3906 18.7031 9.35156 18.7031C4.19531 18.7031 0 14.5078 0 9.35156ZM2.00391 9.35156C2.00391 13.4062 5.29688 16.6992 9.35156 16.6992C13.4062 16.6992 16.6992 13.4062 16.6992 9.35156C16.6992 5.29688 13.4062 2.00391 9.35156 2.00391C5.29688 2.00391 2.00391 5.29688 2.00391 9.35156Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <span class="visually-hidden">Поиск</span>
+                        </a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a class="user-menu-link" href="/favourite">
+                            <span class="user-menu-icon">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 7.07812C0 2.92969 2.84766 0 6.64453 0C8.8125 0 10.5938 1.04297 11.6367 2.61328C12.7031 1.03125 14.4609 0 16.6289 0C20.4258 0 23.2734 2.92969 23.2734 7.07812C23.2734 12.0703 19.0898 16.9805 12.4922 21.1992C12.2344 21.3516 11.8828 21.5156 11.6367 21.5156C11.3906 21.5156 11.0391 21.3516 10.793 21.1992C4.18359 16.9805 0 12.0703 0 7.07812ZM1.88672 7.07812C1.88672 11.4375 6.49219 16.1367 11.4023 19.3945C11.5078 19.4766 11.5898 19.5352 11.6367 19.5352C11.6836 19.5352 11.7656 19.4766 11.8828 19.3945C16.7812 16.1367 21.3867 11.4375 21.3867 7.07812C21.3867 3.96094 19.3711 1.88672 16.6523 1.88672C14.4609 1.88672 13.2422 3.28125 12.4336 4.42969C12.0938 4.88672 11.918 5.02734 11.6367 5.02734C11.3555 5.02734 11.1562 4.89844 10.8398 4.42969C10.0898 3.25781 8.82422 1.88672 6.62109 1.88672C3.90234 1.88672 1.88672 3.96094 1.88672 7.07812Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <span class="visually-hidden">Избранное</span>
+                        </a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a class="user-menu-link" href="/basket">
+                            <span class="user-menu-icon">
+                                <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.52734 17.3438C7.82812 17.3438 6.94922 16.3008 6.70312 14.6367L4.82812 1.76953H0.867188C0.398438 1.76953 0 1.35938 0 0.878906C0 0.410156 0.398438 0 0.867188 0H4.98047C6.17578 0 6.50391 0.457031 6.62109 1.35938L6.84375 2.84766H25.9805C26.625 2.84766 27.0469 3.23438 27.0469 3.79688C27.0469 3.90234 27.0234 4.08984 27 4.24219L26.0625 10.4414C25.8164 12.1172 24.9375 13.1719 23.2266 13.1719H8.35547L8.54297 14.4023C8.64844 15.1172 9.05859 15.5859 9.72656 15.5859H23.2031C23.6602 15.5859 24.0586 15.9609 24.0586 16.4648C24.0586 16.9688 23.6602 17.3438 23.2031 17.3438H9.52734ZM25.0547 4.61719H7.10156L8.09766 11.4141H23.0508C23.7422 11.4141 24.1289 10.957 24.2227 10.2305L25.0547 4.61719ZM10.4531 23.0391C9.38672 23.0391 8.54297 22.207 8.54297 21.1406C8.54297 20.0859 9.38672 19.2422 10.4531 19.2422C11.5078 19.2422 12.3516 20.0859 12.3516 21.1406C12.3516 22.207 11.5078 23.0391 10.4531 23.0391ZM21.4102 23.0391C20.3555 23.0391 19.5 22.207 19.5 21.1406C19.5 20.0859 20.3555 19.2422 21.4102 19.2422C22.4766 19.2422 23.3203 20.0859 23.3203 21.1406C23.3203 22.207 22.4766 23.0391 21.4102 23.0391Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <span class="visually-hidden">Корзина</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-main">
+        <h1 class="visually-hidden">Коллекция «Навязали 2024»</h1>
+
+        <div class="container">
+            <section class="lead-block">
+                <div class="lead-block-header">
+                    <h2 class="lead-block-title">Навязали</h2>
+                    <p class="lead-block-caption">Коллекция 2024</p>
+                </div>
+            
+                <ul class="lead-block-collections lead-collections">
+                    <li class="lead-collections-item">
+                        <img class="lead-collections-image" src="img/scarfs.png" width="472" height="643" alt="Коллекция шарфов, 24 модели">
+                    </li>
+                    <li class="lead-collections-item active">
+                        <img class="lead-collections-image" src="img/sweaters.png" width="472" height="643" alt="Коллекция свитеров, 17 моделей">
+                        <div class="lead-collections-text">
+                            <p class="lead-collections-caption">Свитеры</p>
+                            <p class="lead-collections-title">17 моделей</p>
+                        </div>                
+                    </li>
+                    <li class="lead-collections-item">
+                        <img class="lead-collections-image" src="img/cardigans.png" width="472" height="643" alt="Коллекция кардиганов, 19 моделей">
+                    </li>
+                    <li class="lead-collections-item">
+                        <img class="lead-collections-image" src="img/hats.png" width="472" height="643" alt="Коллекция шапок, 22 модели">
+                    </li>
+                    <li class="lead-collections-item">
+                        <img class="lead-collections-image" src="img/socks.png" width="472" height="643" alt="Коллекция носков, 14 моделей">
+                    </li>
+                </ul>
+
+                <div class="lead-block-description">
+                    <p>Мы&nbsp;запустили этот проект из&nbsp;большой любви к&nbsp;одежде. Каждые полгода мы&nbsp;приглашаем талантливых дизайнеров сделать для нас свитеры, кардиганы, шарфы, шапки и&nbsp;носки.</p>
+                    <p>Это единственная коллекция Вязани, которая не&nbsp;выходит массовым тиражом. Каждая вещь уникальна и&nbsp;представлена только в&nbsp;пяти экземплярах.</p>
+                    <p>Дизайнеры: 
+                        <a href="/nikolskaya">Лена&nbsp;Никольская</a>,
+                        <a href="/bystrova">Оля&nbsp;Быстрова</a>,
+                        <a href="/malaya">Маша&nbsp;Малая</a>,
+                        <a href="/vyrypaev">Ваня&nbsp;Вырыпаев</a>,
+                        <a href="/cherniy">Лёва&nbsp;Черный</a>.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <p class="footer-copyrights">© Фабрика Вязань, 2010—2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
