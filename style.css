@@ -5,7 +5,7 @@
     font-display: swap;
     src:
         local("ABC Gravity Cyrillic"),
-        url("../fonts/abc_gravity_cyrillic.woff2") format("woff2")
+        url("../abc_gravity_cyrillic.woff2") format("woff2")
 }
 
 a {
