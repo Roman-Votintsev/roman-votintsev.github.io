@@ -79,6 +79,11 @@ input[type="radio"].visually-hidden {
     color: #000000;
 }
 
+p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
 .page-header {
     margin-bottom: 64px;
 }
