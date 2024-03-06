@@ -26,7 +26,10 @@ img {
     height: auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3, 
+h4 {
     font-family: "ABC Gravity Cyrillic Unlicensed Trial", "Helvetica", "Arial", sans-serif;
 }
 
@@ -85,7 +88,7 @@ p {
 }
 
 .page-header {
-    margin-bottom: 64px;
+    margin-bottom: 70px;
 }
 
 .page-header-inner {
@@ -93,14 +96,14 @@ p {
     grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 20px;
-    min-height: 56px;
+    min-height: 52px;
 }
 
 .site-logo {
     align-self: start;
     width: 140px;
     height: 30px;
-    margin-top: 20px;
+    margin-top: 19px;
 }
 
 .main-menu {
@@ -135,7 +138,7 @@ p {
 .main-menu-link.active {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
+    text-underline-offset: 13px;
     text-decoration-color: #FF742E;
 }
 
@@ -145,6 +148,7 @@ p {
     align-items: center;
     gap: 8px;
     margin: 0;
+    margin-top: 8px;
     margin-left: auto;
     padding: 0;
 
@@ -178,7 +182,7 @@ p {
     width: 260px;
     height: 150px;
 
-    background-image: url("../lead_heart.svg");
+    background-image: url("../img/lead_heart.svg");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -256,7 +260,8 @@ p {
 }
 
 .page-footer {
-    margin-top: 104px;
+    margin-top: 87px;
+    margin-bottom: 12px;
 }
 
 .page-footer-inner {
@@ -273,7 +278,7 @@ p {
 
 .contacts {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     padding: 0;
 
     list-style: none; 
@@ -307,7 +312,7 @@ p {
 .about-title,
 .help-title {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
     margin-bottom: 4px;
 }
