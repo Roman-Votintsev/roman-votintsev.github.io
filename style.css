@@ -182,7 +182,7 @@ p {
     width: 260px;
     height: 150px;
 
-    background-image: url("../img/lead_heart.svg");
+    background-image: url("../lead_heart.svg");
     background-repeat: no-repeat;
     background-position: right top;
 }
