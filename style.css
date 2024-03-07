@@ -233,6 +233,11 @@ p {
     max-width: unset;
 }
 
+.lead-colltections-link {
+    display: flex;
+    color: #000000;
+}
+
 .lead-collections-text {
     position: absolute;
     bottom: 10px;
