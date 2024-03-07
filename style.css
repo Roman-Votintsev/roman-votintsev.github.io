@@ -350,7 +350,7 @@ p {
 }
 
 .social-link-icon:hover svg path {
-    fill: #FF742E;
+    fill-opacity: 1;
 }
 
 .about {
