@@ -341,6 +341,10 @@ p {
     list-style: none; 
 }
 
+.social-link {
+    display: flex;
+}
+
 .about {
     margin: 0;
     margin-bottom: 20px;
