@@ -131,11 +131,12 @@ p {
 }
 
 .main-menu-link:hover {
-    color: inherit;
+    color: #FF742E;
     text-decoration: none;
 }
 
 .main-menu-link.active {
+    color: #FF742E;    
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 13px;
