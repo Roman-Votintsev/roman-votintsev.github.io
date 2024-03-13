@@ -361,7 +361,7 @@ p {
     display: flex;
 }
 
-.social-link-icon:hover svg path {
+.social-link:hover svg path {
     fill-opacity: 1;
 }
 
