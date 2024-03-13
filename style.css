@@ -165,7 +165,7 @@ p {
     height: 28px;
 }
 
-.user-menu-icon:hover svg path {
+.user-menu-link:hover svg path {
     fill: #FF742E;
 }
 
