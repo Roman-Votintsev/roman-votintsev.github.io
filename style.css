@@ -88,14 +88,14 @@ p {
 }
 
 .page-header {
-    margin-bottom: 70px;
+    margin-bottom: 69px;
 }
 
 .page-header-nav {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    gap: 20px;
+    gap: 22px;
     min-height: 52px;
 }
 
@@ -182,7 +182,7 @@ p {
 
     position: absolute;
     top: 0;
-    right: -24px;
+    right: -28px;
 
     width: 260px;
     height: 150px;
@@ -201,6 +201,7 @@ p {
     font-size: 108px;
     font-weight: 900;
     line-height: 108px;
+    letter-spacing: -1px;
 }
 
 .lead-block-caption {
@@ -295,13 +296,22 @@ p {
 }
 
 .about,
-.help,
-.legal {
+.help {
     margin: 0;
     padding: 0;
 
     list-style: none; 
 }
+
+.legal {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    justify-content: end;
+
+    list-style: none; 
+}
+
 
 .contacts-item,
 .about-item,
