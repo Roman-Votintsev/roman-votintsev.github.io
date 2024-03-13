@@ -308,6 +308,8 @@ p {
     flex-wrap: nowrap;
     gap: 16px;
     justify-content: end;
+    margin: 0;
+    padding: 0;
 
     list-style: none; 
 }
@@ -373,15 +375,6 @@ p {
 
 .copyrights {
     color: rgba(0, 0, 0, 0.50);
-}
-
-.legal {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.legal-item {
-    margin-right: 12px;
 }
 
 .legal-link {
