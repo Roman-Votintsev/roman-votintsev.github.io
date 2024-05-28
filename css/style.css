@@ -5,6 +5,30 @@
 * Browsers: last 3 version
 */
 
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter_medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/unbounded_medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
