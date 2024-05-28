@@ -198,7 +198,7 @@ h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .promo__main {
@@ -259,7 +259,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 767px) {
     .promo__title {
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     .promo__btn {
